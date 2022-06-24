@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper header{
+    color: white;
+    background-color: #0d1b2a;
+    position: relative;
+    width: 100%;
+}
+
+#wrapper header h1{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 1.7em;
+}
+
+#wrapper header a{
+    margin-left: 50px;
+}
+
+#wrapper header i{
+    position: relative;
+    float: right;
+    margin: 30px 200px;
+    color: white;
+}
+
+#wrapper #menu ul{
+    position: absolute;
+    background-color: #FC7A00;
+    float: left;
+    width: 15%;
+    height: 87vh;
+    padding-top: 20px;
+    
+    
+
+    
+    
+    
+}
+
+#wrapper #menu ul li{
+   margin-left: 10px;
+   padding: 10px;
+   list-style-type: none;
+}
+
+#wrapper #menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper #menu ul i{
+    position: relative;
+    padding-left: 20px;
+    font-size: 1.4em;
+    
+    
+    
+    
+    
+    
+}
+
+#wrapper #menu ul a:hover{
+    color: #0d1b2a;
+}
+
+.wrapper .main h2{
+    margin-top: 90px;
+    margin-left: 500px;
+}
+
+footer{
+    font-size: .70em;
+    margin-top: 522px;
+    text-align: center;
+    margin-left: 220px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+#contenido{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 250px;
+    font-size: 1.1em;
+}
+
+
+
+ .icon2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 300px;
+    font-size: 1.9em;
+}
+
+hr{
+    width: 1000px;
+    color: white;
+
+}
+
+.soli{
+    padding: 20px;
+    margin-left: 65px;
+    width: 300px;
+}
+
+.boton{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 35%;
+    float: right;
+    padding-right: 210px;
+    
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+    background-color: #0d1b2a;
+    padding: 10px 30px;
+    border-radius: 13px;
+}
+
+.boton a:hover{
+    background-color: blue;
+}
+
+
+.boton2{
+    position: absolute;
+    margin-top: 119px;
+    float: right;
+    margin-left: 540px;
+    padding-right: 210px;
+    
+}
+
+.boton2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #0d1b2a;
+    padding: 10px 50px;
+    border-radius: 13px;
+}
+
+.boton2 a:hover{
+    background-color: blue;
+}

@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper header{
+    color: white;
+    background-color: #0d1b2a;
+    position: relative;
+    width: 100%;
+}
+
+#wrapper header h1{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 1.7em;
+}
+
+#wrapper header a{
+    margin-left: 50px;
+}
+
+#wrapper header i{
+    position: relative;
+    float: right;
+    margin: 30px 200px;
+    color: white;
+}
+
+.wrapper .main img{
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+
+
+#wrapper #menu ul{
+    position: absolute;
+    background-color: #FC7A00;
+    float: left;
+    width: 15%;
+    height: 87vh;
+    padding-top: 20px;
+    
+    
+
+    
+    
+    
+}
+
+#wrapper #menu ul li{
+   margin-left: 10px;
+   padding: 10px;
+   list-style-type: none;
+}
+
+#wrapper #menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper #menu ul i{
+    position: relative;
+    padding-left: 20px;
+    font-size: 1.4em;
+    
+    
+    
+    
+    
+    
+}
+
+#wrapper #menu ul a:hover{
+    color: #0d1b2a;
+}
+
+
+
+footer{
+    font-size: .70em;
+    margin-top: 130px;
+    text-align: center;
+    margin-left: 220px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover{
+    color: blue;
+}
+.wrapper .agendar{
+    position: absolute;
+    float: right;
+    top: 500px;
+    left: 50%;
+    
+}
+
+
+.wrapper .agendar a{
+    text-decoration: none;
+    color: white;
+    background-color: #0d1b2a;
+    padding: 10px 30px;
+    border-radius: 13px;
+}
+
+.wrapper .añadir{
+    position: absolute;
+    float: right;
+    top: 500px;
+    left: 35%;
+    
+}
+
+
+.wrapper .añadir a{
+    text-decoration: none;
+    color: white;
+    background-color: #0d1b2a;
+    padding: 10px 30px;
+    border-radius: 13px;
+}
+
+.wrapper .borrar{
+    position: absolute;
+    float: right;
+    top: 500px;
+    left: 65%;
+    
+}
+
+
+.wrapper .borrar a{
+    text-decoration: none;
+    color: white;
+    background-color: #0d1b2a;
+    padding: 10px 30px;
+    border-radius: 13px;
+}
+
+.añadir a:hover{
+    background-color: blue;
+}
+
+.agendar a:hover{
+    background-color: blue;
+}
+
+.borrar a:hover{
+    background-color: blue;
+}
+
